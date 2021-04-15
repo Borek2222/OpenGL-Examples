@@ -104,19 +104,19 @@ public class Game {
     public static void update(long window) {
         if(GLFW.glfwGetKey(window, GLFW.GLFW_KEY_W) == GLFW.GLFW_PRESS) { // W
             matrix = matrix.translate(0.01f, 0f, 0f);
-            System.out.println(matrix);
+            System.out.println("-------------------W-------------------\n" + matrix);
         }
         if(GLFW.glfwGetKey(window, GLFW.GLFW_KEY_S) == GLFW.GLFW_PRESS) { // S
             matrix = matrix.translate(-0.01f, 0f, 0f);
-            System.out.println(matrix);
+            System.out.println("-------------------S-------------------\n" +matrix);
         }
         if(GLFW.glfwGetKey(window, GLFW.GLFW_KEY_A) == GLFW.GLFW_PRESS) { // A
             matrix = matrix.translate(0.0f, 0.01f, 0f);
-            System.out.println(matrix);
+            System.out.println("-------------------A-------------------\n" +matrix);
         }
         if (GLFW.glfwGetKey(window, GLFW.GLFW_KEY_D) == GLFW.GLFW_PRESS) { // D
             matrix = matrix.translate(0.0f, -0.01f, 0f);
-            System.out.println(matrix);
+            System.out.println("-------------------D-------------------\n" +matrix);
         }
     }
 }
