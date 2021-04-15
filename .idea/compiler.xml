@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="14" />
+    <bytecodeTargetLevel target="14">
+      <module name="OpenGLExamples.Matrix" target="1.10" />
+      <module name="OpenGLExamples.ShaderAttrributes" target="1.10" />
+      <module name="OpenGLExamples.ShaderUniforms" target="1.10" />
+      <module name="OpenGLExamples.Triangle" target="1.10" />
+      <module name="OpenGLExamples.Window" target="1.10" />
+    </bytecodeTargetLevel>
   </component>
 </project>
