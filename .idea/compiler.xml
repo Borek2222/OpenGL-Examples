@@ -2,11 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="14">
-      <module name="OpenGLExamples.Matrix" target="1.10" />
-      <module name="OpenGLExamples.ShaderAttrributes" target="1.10" />
-      <module name="OpenGLExamples.ShaderUniforms" target="1.10" />
-      <module name="OpenGLExamples.Triangle" target="1.10" />
-      <module name="OpenGLExamples.Window" target="1.10" />
+      <module name="OpenGLExamples.Matrix.main" target="1.10" />
+      <module name="OpenGLExamples.Matrix.test" target="1.10" />
+      <module name="OpenGLExamples.ShaderAttrributes.main" target="1.10" />
+      <module name="OpenGLExamples.ShaderAttrributes.test" target="1.10" />
+      <module name="OpenGLExamples.ShaderUniforms.main" target="1.10" />
+      <module name="OpenGLExamples.ShaderUniforms.test" target="1.10" />
+      <module name="OpenGLExamples.Triangle.main" target="1.10" />
+      <module name="OpenGLExamples.Triangle.test" target="1.10" />
+      <module name="OpenGLExamples.Window.main" target="1.10" />
+      <module name="OpenGLExamples.Window.test" target="1.10" />
     </bytecodeTargetLevel>
   </component>
 </project>

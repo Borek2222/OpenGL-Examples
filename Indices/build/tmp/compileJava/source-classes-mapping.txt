@@ -1,6 +1,14 @@
-educanet/Shaders.java
- educanet.Shaders
+educanet/objects/Square.java
+ educanet.objects.Square
 educanet/Game.java
  educanet.Game
+educanet/objects/Player.java
+ educanet.objects.Player
+educanet/objects/Maze.java
+ educanet.objects.Maze
 educanet/Main.java
  educanet.Main
+educanet/utils/FileUtil.java
+ educanet.utils.FileUtil
+educanet/Shaders.java
+ educanet.Shaders

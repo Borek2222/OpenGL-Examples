@@ -1,21 +1,12 @@
 package educanet;
 
+import educanet.utils.FileUtil;
 import org.lwjgl.opengl.GL33;
 
 public class Shaders {
-    private static final String vertexShaderSource = "#version 330 core\n" +
-            "layout (location = 0) in vec3 aPos;\n" +
-            "void main()\n" +
-            "{\n" +
-            " gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n" +
-            "}";
+    private static final String vertexShaderSource = FileUtil.readFile("C:\\Users\\Boris\\Desktop\\Škola\\GDV\\OpenGL-Examples\\Indices\\src\\shaders\\fragment.glsl");
 
-    private static final String fragmentShaderSource = "#version 330 core\n" +
-            "out vec4 FragColor;\n" +
-            "void main()\n" +
-            "{\n" +
-            "   FragColor = vec4(0.0f, 1.f, 0.8f, 1.0f);\n" +
-            "}\n";
+    private static final String fragmentShaderSource = FileUtil.readFile("C:\\Users\\Boris\\Desktop\\Škola\\GDV\\OpenGL-Examples\\Indices\\src\\shaders\\vertex.glsl");
 
 
     public static int vertexShaderId;
